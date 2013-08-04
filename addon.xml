@@ -3,7 +3,7 @@
 	<extension point="xbmc.addon.repository" name="Outermatrix.TV Project STARMAN Repository">
 		<info compressed="false">https://github.com/bigorangekitty/ProjectNEON/blob/master/addons.xml</info>
 		<checksum>http://bluecop-xbmc-repo.googlecode.com/svn/trunk/addons.xml.md5</checksum>
-		<datadir zip="false">https://github.com/bigorangekitty/R-STARMAN</datadir>
+		<datadir zip="true">https://github.com/bigorangekitty/R-STARMAN</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Add-ons from Project STARMAN</summary>
