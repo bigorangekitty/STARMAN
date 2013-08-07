@@ -219,10 +219,10 @@ Anna (Asian) and Dee (non-Asian) are in the ultimate homance.</description>
 
 <addon id="plugin.video.Outermatrix-TPB"
 	name="Trailer Park Boys Channel"
-	version="1.2"
+	version="1.2.1"
 	provider-name="Outermatrix.net">
   <requires>
-    <import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" version="2.0.0"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -230,7 +230,7 @@ Anna (Asian) and Dee (non-Asian) are in the ultimate homance.</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Trailer Park Boys Channel</summary>
-    <description lang="en">Updated 4 EST, August 7-13. Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
+    <description lang="en">Updated 4 EST, August 7-13. TEMP FIX until this is resolved. Scroll through the the playlist past "gaming" stuff, and you will see full episodes. Will FIX. ...Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
 Made in Canada, Enjoy!</description>
     <platform>all</platform>
   </extension>
