@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Outermatrix_Smithsonian"
        name="Smithsonian Channel"
-       version="2.0"
+       version="2.1"
        provider-name="Outermatrix by bigorangekitty">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
