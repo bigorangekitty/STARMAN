@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Outermatrix-TerryRichardsonTV"
+	name="Terry Richardson TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Terry Richardson TV</summary>
+    <description lang="en">Terry Richardson is an American fashion, portrait, and documentary photographer. Known for shoots with the likes of celebs like Kate Upton.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

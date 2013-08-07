@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Outermatrix-TPB"
+	name="Trailer Park Boys Channel"
+	version="1.0.1"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Trailer Park Boys Channel</summary>
+    <description lang="en">Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
+Made in Canada, Enjoy!</description>
+    <platform>all</platform>
+  </extension>
+</addon>

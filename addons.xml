@@ -1,5 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.Outermatrix"
+	name="The Outermatrix"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Outermatrix</summary>
+    <description lang="en">Doing your mom since June '04.  Always pushing the boundaries of technology and good taste.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-10secondtraumas"
+	name="10 Second Traumas"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">10 Second Traumas</summary>
+    <description lang="en"> Two pretty funny women...
+Anna (Asian) and Dee (non-Asian) are in the ultimate homance.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-BeFit"
+	name="Be Fit Channel"
+	version="1.0.1"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Be Fit Channel</summary>
+    <description lang="en">Be healthy.  Be Fit. Workout with all of today's hottest trainers and transform yourself.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-BobDylanTV"
+	name="Bob Dylan TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Bob Dylan TV</summary>
+    <description lang="en">Bob Dylan Music Videos!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-EcoScrapsGardening"
+	name="EcoScraps Gardening"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EcoScraps Gardening</summary>
+    <description lang="en">Learn tips and proper things to do while gardening.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-FSO"
+	name="Film Streams Online TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Film Streams Online</summary>
+    <description lang="en">Watch classic TV and Movies, and "indie" HD Movies.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-KelseyDarragh"
+	name="Kelsey Darragh Channel"
+	version="1.0.1"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kelsey Darragh Channel</summary>
+    <description lang="en">Actress, writer, funny person. </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-KiddoTV"
+	name="Kiddo.TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kiddo.TV</summary>
+    <description lang="en">Variety of cartoons for kids. Alpha Development.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-SickScience"
+	name="Sick Science Experiments"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sick Science Experiments</summary>
+    <description lang="en">Explore with Steve Spangler, as he does crazy and fun science experiments! </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-SouthParkTV"
+	name="South Park TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">South Park TV</summary>
+    <description lang="en">Full Episodes of Trey Parker and Matt Stone's South Park.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-TerryRichardsonTV"
+	name="Terry Richardson TV"
+	version="1.0.0"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Terry Richardson TV</summary>
+    <description lang="en">Terry Richardson is an American fashion, portrait, and documentary photographer. Known for shoots with the likes of celebs like Kate Upton.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-TPB"
+	name="Trailer Park Boys Channel"
+	version="1.0.1"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Trailer Park Boys Channel</summary>
+    <description lang="en">Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
+Made in Canada, Enjoy!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Outermatrix-Yoga"
+	name="Yoga Channel"
+	version="1.0.1"
+	provider-name="Outermatrix.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Yoga Channel</summary>
+    <description lang="en">This channel offers your 200+ hours of free online yoga classes.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Outermatrix_Smithsonian"
        name="Smithsonian Channel"
        version="2.0"
