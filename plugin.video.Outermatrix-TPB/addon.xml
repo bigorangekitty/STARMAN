@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Outermatrix-TPB"
 	name="Trailer Park Boys Channel"
-	version="1.0.1"
+	version="1.2"
 	provider-name="Outermatrix.net">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
@@ -12,7 +12,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Trailer Park Boys Channel</summary>
-    <description lang="en">Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
+    <description lang="en">Updated 4 EST, August 7-13. Ricky and Julian are two guys whose lives were shaped by their experiences growing up in the Trailer Park. Their childhood was typical of most trailer park kids - stealing, fighting, smoking, drinking, scamming and listening to Van Halen. The Boys have had their share of trouble with the law and spend a large portion of their adult lives behind bars.
 Made in Canada, Enjoy!</description>
     <platform>all</platform>
   </extension>

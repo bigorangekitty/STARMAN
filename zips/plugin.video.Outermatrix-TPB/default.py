@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #------------------------------------------------------------
-# http://www.youtube.com/user/Nebulon9TV06
+# http://www.youtube.com/user/YourFriendlyGamerx
 #------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
 # Based on code from youtube addon
@@ -10,11 +10,11 @@ import os
 import sys
 import plugintools
 
-YOUTUBE_CHANNEL_ID = "Nebulon9TV06"
+YOUTUBE_CHANNEL_ID = "YourFriendlyGamerx"
 
 # Entry point
 def run():
-    plugintools.log("Nebulon9TV06.run")
+    plugintools.log("YourFriendlyGamerx.run")
     
     # Get params
     params = plugintools.get_params()
@@ -29,7 +29,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("Nebulon9TV06.main_list "+repr(params))
+    plugintools.log("YourFriendlyGamerx.main_list "+repr(params))
 
     # On first page, pagination parameters are fixed
     if params.get("url") is None:
