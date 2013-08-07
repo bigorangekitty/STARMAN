@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.Outermatrix_Smithsonian"
+       name="Smithsonian Channel"
+       version="2.0"
+       provider-name="Outermatrix by bigorangekitty">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Smithsonian Channel</summary>
+    <description lang="en">Smithsonian Channel brings you original documentaries and videos exploring history, air and space, science, nature, and culture.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Outermatrix.net -Project STARMAN" name="Outermatrix.net -Project STARMAN" version="1.4" provider-name="Outermatrix.net by bigorangekitty">
+	<extension point="xbmc.addon.repository" name="Outermatrix.net -Project STARMAN">
+		<info compressed="false">http://github.com/bigorangekitty/STARMAN/raw/master/addons.xml</info>
+<checksum>http://github.com/bigorangekitty/STARMAN/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/bigorangekitty/STARMAN/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Latest frodo versions of my add-ons</summary>
+		<description>Latest frodo versions of my add-ons</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

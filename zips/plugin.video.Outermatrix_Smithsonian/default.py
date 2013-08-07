@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #------------------------------------------------------------
-# http://www.youtube.com/user/EEntertainment
+# http://www.youtube.com/user/smithsonianchannel
 #------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
 # Based on code from youtube addon
@@ -10,11 +10,11 @@ import os
 import sys
 import plugintools
 
-YOUTUBE_CHANNEL_ID = "EEntertainment"
+YOUTUBE_CHANNEL_ID = "smithsonianchannel"
 
 # Entry point
 def run():
-    plugintools.log("EEntertainment.run")
+    plugintools.log("smithsonianchannel.run")
     
     # Get params
     params = plugintools.get_params()
@@ -29,7 +29,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("EEntertainment.main_list "+repr(params))
+    plugintools.log("smithsonianchannel.main_list "+repr(params))
 
     # On first page, pagination parameters are fixed
     if params.get("url") is None:
