@@ -147,7 +147,7 @@ Anna (Asian) and Dee (non-Asian) are in the ultimate homance.</description>
 
 <addon id="plugin.video.Outermatrix-KiddoTV"
 	name="Kiddo.TV"
-	version="1.0.0"
+	version="1.0.2"
 	provider-name="Outermatrix.net">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
